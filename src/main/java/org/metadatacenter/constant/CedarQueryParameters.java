@@ -25,4 +25,6 @@ public final class CedarQueryParameters {
   public static final String QP_NOTIFICATION_STATUS = "notification_status";
   public static final String QP_CATEGORY_ID = "category_id";
 
+  public static final String QP_SOURCE_ARTIFACT_ID = "source_artifact_id";
+
 }

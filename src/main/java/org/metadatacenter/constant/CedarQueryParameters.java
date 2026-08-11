@@ -26,6 +26,10 @@ public final class CedarQueryParameters {
   public static final String QP_CATEGORY_ID = "category_id";
   public static final String QP_FOLDER_NAME = "folder_name";
   public static final String QP_SKIP_VALIDATION = "skip_validation";
+  // The 'pav:lastUpdatedOn' the caller believes the artifact carries. An update that names it is refused
+  // when the stored artifact has moved on, which is the only protection against a lost update: the write
+  // replaces the whole document and nothing else compares versions.
+  public static final String QP_EXPECTED_LAST_UPDATED_ON = "expected_last_updated_on";
 
   public static final String QP_SOURCE_ARTIFACT_ID = "source_artifact_id";
 

@@ -1,7 +1,7 @@
 # cedar-rest-library
 CEDAR REST Library
 
-[![Build Status](https://travis-ci.com/metadatacenter/cedar-rest-library.svg?branch=master)](https://travis-ci.com/metadatacenter/cedar-rest-library)
+[![CI](https://github.com/metadatacenter/cedar-rest-library/actions/workflows/ci.yml/badge.svg?branch=develop)](https://github.com/metadatacenter/cedar-rest-library/actions/workflows/ci.yml)
 
 #### Questions
 

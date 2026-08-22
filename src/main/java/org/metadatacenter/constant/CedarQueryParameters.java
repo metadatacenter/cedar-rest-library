@@ -26,6 +26,9 @@ public final class CedarQueryParameters {
   public static final String QP_CATEGORY_ID = "category_id";
   public static final String QP_FOLDER_NAME = "folder_name";
   public static final String QP_SKIP_VALIDATION = "skip_validation";
+  // Replace an existing artifact with exactly the document supplied: no provenance stamped, no child
+  // identifier minted. Validation still applies, so the stored document is the validated one.
+  public static final String QP_VERBATIM = "verbatim";
 
   public static final String QP_SOURCE_ARTIFACT_ID = "source_artifact_id";
 
